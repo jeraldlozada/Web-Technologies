@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #3d3b3b;
+    padding-top: 29px;
+    padding-bottom: 15px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header h1 {
+    font-weight: 400;
+    font-size: 34px;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #3d3b3b;
+    color: white;
+    text-align: right;
+    clear: both;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer h3 {
+    font-weight: 500;
+    padding: 10px;
+}
+
+
+footer li {
+    display: inline-block;
+    font-size: 48px;
+    margin: 8px;
+}
+
+.footy {
+    padding: 20px;
+}
+
+.wrapper {
+    margin: auto;
+    width: 1200px;
+}
+
+nav {
+    align-self: flex-end;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+#homecontent {
+    display: flex;
+    flex-direction: column;
+}
+
+#logos{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 43px;
+    padding-bottom: 43px;
+}
+
+#logos h2 {
+    padding: 10px;
+}
+
+#tech {
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 92px;
+}
+
+#tech h2 {
+    font-size: x-large;
+}
+
+#tech li {
+    display: inline-block;
+    margin: 20px;
+    font-size: 24px;
+}
+
+#floatleft {
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#othercontent {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#othercontent p, #othercontent h3 {
+    margin: 15px;
+    font-size: 17px;
+}
